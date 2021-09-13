@@ -2,9 +2,24 @@ apiVersion: v1
 entries:
   metabase:
   - apiVersion: v1
-    appVersion: "0.40.4"
+    appVersion: v0.40.4
+    created: "2021-09-13T19:17:48.209653973Z"
+    deprecated: true
+    description: DEPRECATED - The easy, open source way for everyone in your company to ask questions and learn from data.
+    digest: af0a1758a5776a0b204611c4bca24e23cff4d81224c3e64e94db2e21cf3b0b4e
+    home: http://www.metabase.com/
+    icon: http://www.metabase.com/images/logo.svg
+    name: metabase
+    sources:
+    - https://github.com/metabase/metabase
+    urls:
+    - https://github.com/gabeio/temp-charts/releases/download/metabase-0.13.3/metabase-0.13.3.tgz
+    version: 0.13.3
+  - apiVersion: v1
+    appVersion: 0.40.4
     created: "2020-01-14T22:13:54.191977805Z"
     digest: 2c9be84b8f95923a6f101685738f23c88abda886ca5731e31142cc81f7533dac
     name: metabase
+    urls: null
     version: 0.13.2
 generated: "2020-01-14T22:13:54.037646524Z"
