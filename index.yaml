@@ -1,5 +1,22 @@
 apiVersion: v1
 entries:
+  cockroachdb:
+  - apiVersion: v1
+    appVersion: 22.1.0
+    created: "2022-05-29T14:02:37.390076059Z"
+    description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
+    digest: d107e73f33e835c1932aaed3d1e313654ec02f33f06d18d17791940fb4479977
+    home: https://www.cockroachlabs.com
+    icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
+    maintainers:
+    - email: helm-charts@cockroachlabs.com
+      name: cockroachlabs
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - https://github.com/gabeio/temp-charts/releases/download/cockroachdb-8.0.0/cockroachdb-8.0.0.tgz
+    version: 8.0.0
   metabase:
   - apiVersion: v1
     appVersion: v0.42.2
