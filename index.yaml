@@ -17,6 +17,30 @@ entries:
     urls:
     - https://github.com/gabeio/temp-charts/releases/download/cockroachdb-8.0.0/cockroachdb-8.0.0.tgz
     version: 8.0.0
+  kong:
+  - apiVersion: v2
+    appVersion: "2.8"
+    created: "2022-07-30T15:11:08.180803893Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.1.15
+    description: The Cloud-Native Ingress and API-management
+    digest: 562efd50ac8d25f01eb52bccc51d48d2d338b50ec35d6a0f8ac6e8b361c7b19a
+    home: https://konghq.com/
+    icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
+    maintainers:
+    - email: harry@konghq.com
+      name: hbagdi
+    - email: traines@konghq.com
+      name: rainest
+    name: kong
+    sources:
+    - https://github.com/Kong/charts/tree/main/charts/kong
+    urls:
+    - https://github.com/gabeio/temp-charts/releases/download/kong-2.11.0/kong-2.11.0.tgz
+    version: 2.11.0
   metabase:
   - apiVersion: v1
     appVersion: v0.43.1
