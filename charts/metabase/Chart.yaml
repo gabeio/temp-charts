@@ -3,7 +3,7 @@ description: The easy, open source way for everyone in your company to ask quest
   and learn from data.
 name: metabase
 version: 0.13.9
-appVersion: v0.45.3
+appVersion: v0.45.4.3
 deprecated: true
 home: http://www.metabase.com/
 icon: http://www.metabase.com/images/logo.svg
