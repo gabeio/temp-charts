@@ -66,19 +66,6 @@ entries:
     version: 2.11.0
   metabase:
   - apiVersion: v1
-    appVersion: v0.48.13
-    created: "2024-10-10T04:10:50.303938843Z"
-    description: The easy, open source way for everyone in your company to ask questions and learn from data.
-    digest: bd35847645d57088918fc013e24064b59417320b57a0abe9de10ca252cc937d3
-    home: http://www.metabase.com/
-    icon: http://www.metabase.com/images/logo.svg
-    name: metabase
-    sources:
-    - https://github.com/metabase/metabase
-    urls:
-    - https://github.com/gabeio/temp-charts/releases/download/metabase-0.48.13/metabase-0.48.13.tgz
-    version: 0.48.13
-  - apiVersion: v1
     appVersion: v0.47.13
     created: "2024-10-10T04:09:55.459806474Z"
     description: The easy, open source way for everyone in your company to ask questions and learn from data.
@@ -223,4 +210,17 @@ entries:
     name: metabase
     urls: null
     version: 0.13.2
+  - apiVersion: v1
+    appVersion: v0.49.25.2
+    created: "2024-10-10T04:11:16.713079296Z"
+    description: The easy, open source way for everyone in your company to ask questions and learn from data.
+    digest: faa751e0b8e8b189060ecf36f852f681e8a6e1b0a13d665cefe45c3dc90a357c
+    home: http://www.metabase.com/
+    icon: http://www.metabase.com/images/logo.svg
+    name: metabase
+    sources:
+    - https://github.com/metabase/metabase
+    urls:
+    - https://github.com/gabeio/temp-charts/releases/download/metabase-0.49.25.2/metabase-0.49.25.2.tgz
+    version: 0.49.25.2
 generated: "2020-01-14T22:13:54.037646524Z"
