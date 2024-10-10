@@ -66,6 +66,19 @@ entries:
     version: 2.11.0
   metabase:
   - apiVersion: v1
+    appVersion: v0.47.13
+    created: "2024-10-10T04:09:55.459806474Z"
+    description: The easy, open source way for everyone in your company to ask questions and learn from data.
+    digest: be7bef41696b50c49dbbff8e9f0b9fcb9661336d7b78b418c1990e731942d637
+    home: http://www.metabase.com/
+    icon: http://www.metabase.com/images/logo.svg
+    name: metabase
+    sources:
+    - https://github.com/metabase/metabase
+    urls:
+    - https://github.com/gabeio/temp-charts/releases/download/metabase-0.47.13/metabase-0.47.13.tgz
+    version: 0.47.13
+  - apiVersion: v1
     appVersion: v0.46.8
     created: "2024-10-10T04:08:20.64063786Z"
     description: The easy, open source way for everyone in your company to ask questions and learn from data.
